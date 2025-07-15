@@ -1,0 +1,163 @@
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .nav-links ul li {
+    display: block;
+  }
+  .nav-links ul li a {
+    color: #fff;
+  }
+  .nav-links {
+    position: fixed;
+    background: #74c69d;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+  nav #icons {
+    display: block;
+    margin: 10px;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  i {
+    display: block;
+    color: #fff;
+    font-size: 35px;
+  }
+  .nav-links ul {
+    padding: 30px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .logo {
+    left: 0px;
+  }
+  .container {
+    overflow-x: hidden;
+  }
+  #icons {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+  }
+  .container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #74c69d;
+    width: 100%;
+    gap: 20px;
+    overflow-x: hidden;
+  }
+  .content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .content-left h2 {
+    font-size: 30px;
+  }
+  .content-right img {
+    width: 93%;
+    height: 60%;
+  }
+  .content {
+    width: 92%;
+  }
+  .content-img {
+    flex-direction: column;
+    width: 80%;
+    gap: 35px;
+    align-items: center;
+    position: relative;
+    left: 40px;
+  }
+  .content-img img {
+    width: 100%;
+  }
+  .container-2 {
+    flex-direction: column;
+    width: 92%;
+  }
+  .img-left img {
+    width: 100%;
+    height: 233px;
+  }
+  .content-2-right h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .content-2-right {
+    align-items: center;
+  }
+  .content-2-right p {
+    text-align: center;
+    font-size: smaller;
+  }
+  .container-3-med {
+    flex-direction: column-reverse;
+  }
+  .content-per {
+    flex-direction: column;
+    width: 93%;
+    position: relative;
+    left: 18px;
+  }
+  .container-3 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .container-ser {
+    flex-direction: column;
+    width: 93%;
+    gap: 20px;
+    width: 100%;
+  }
+  .basic {
+    width: 90%;
+  }
+  .basic ul li {
+    font-size: 20px;
+  }
+  #container2 {
+    width: 100%;
+  }
+  .container-con {
+    flex-direction: column;
+    width: 93%;
+    position: relative;
+    left: 15px;
+
+  }
+  .right-form {
+    width: 100%;
+  }
+  form {
+    width: inherit;
+  }
+  textarea {
+    width: inherit;
+  }
+  .container-con {
+    gap: 50px;
+    overflow: hidden;
+  }
+  iframe {
+    width: 100%;
+  }
+}

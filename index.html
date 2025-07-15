@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start-Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel=" icon" href="./images/logo.png" type=x-icon" />
+  </head>
+  <body>
+    <!-- THIS IS THE NAV-BAR OF THE WEB START -->
+    <div class="container">
+      <div class="logo">
+        <img src="./images/logo.png" height="40px" alt="" />
+        <h1>Start</h1>
+      </div>
+      <nav>
+        <div class="nav-links" id="navLikns">
+          <i id="icons" class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="port.html">Portfolio</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i id="icons" class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </div>
+    <!-- THIS IS THE NAV-BAR OF THE WEB START -->
+
+    <!-- THIS IS THE FIREST SECTION OF THE WEB START -->
+    <section>
+      <div class="container-1">
+        <div class="content-left">
+          <h3>WELCOME</h3>
+          <h2>
+            Lorem ipsum dolor sit <br />
+            amet consectetur
+          </h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing<br />
+            elit.Suscipit nemo hic quos, ab, dolor aperiam nobis <br />
+            cum est eos error ipsum, voluptate culpa nesciunt<br />
+            delectus iste?
+          </p>
+          <button>Explore</button>
+        </div>
+        <div class="content-right">
+          <img src="./images/Group.png" alt="" width=" 644px" height=" 378px" />
+        </div>
+      </div>
+    </section>
+
+    <!-- THIS IS THE FIREST SECTION OF THE WEB END -->
+
+    <!-- THIS IS THE SECOND SECTION OF THE WEB START -->
+    <section>
+      <div class="content">
+        <h3>PARTNERS</h3>
+        <h2>Lorem Ipsum Dolor</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="content-img">
+        <img src="./images/google.svg" alt="google" />
+        <img src="./images/microsoft.svg" alt="microsoft" />
+        <img src="./images/airbnb.svg" alt="airbnb" />
+        <img src="./images/facebook.svg" alt="facebook" />
+        <img src="./images/spotify.svg" alt="spotify" />
+      </div>
+      <div class="btn">
+        <button>Learn More</button>
+      </div>
+    </section>
+    <!-- THIS IS THE SECOND SECTION OF THE WEB END -->
+
+    <!--  THIS IS THE THIRD SECTION OF THE WEB START -->
+    <section>
+      <div class="container-2">
+        <div class="img-left">
+          <img src="./images/second.png" alt="" />
+        </div>
+        <div class="content-2-right">
+          <h2>
+            Lorem ipsum dolor sit<br />
+            amet consectetur
+          </h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br />
+            Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos<br />
+            error ipsum, voluptate culpa nesciunt delectus iste?
+          </p>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-2 container-3-med">
+        <div class="content-2-right">
+          <h2>
+            Lorem ipsum dolor sit<br />
+            amet consectetur
+          </h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br />
+            Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos<br />
+            error ipsum, voluptate culpa nesciunt delectus iste?
+          </p>
+          <button>Learn More</button>
+        </div>
+        <div class="img-left">
+          <img src="./images/thired.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--  THIS IS THE THIRD SECTION OF THE WEB END -->
+
+    <!-- THIS IS THE FOURTH SECTION OF THE WEB START -->
+
+    <section>
+      <div class="content">
+        <h3>TEAM</h3>
+        <h2>Our Talents</h2>
+        <p style="color: black">
+          Lorem ipsum, dolor sit amet consectetur <br />
+          Suscipit nemo hic quos, ab,.
+        </p>
+      </div>
+      <div class="content-per">
+        <img src="./images/person-1.svg" alt="" />
+        <img src="./images/person-2.svg" alt="" />
+        <img src="./images/person-3.svg" alt="" />
+        <img src="./images/person-4.svg" alt="" />
+      </div>
+    </section>
+    <!--  THIS IS THE FOURTH SECTION OF THE WEB END -->
+
+    <!-- THIS IS THE FOOTER OF THE WEB START -->
+    <footer>
+      <div class="container-3">
+        <div class="icon">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-snapchat"></i>
+        </div>
+        <div><p>© Start, 2022. All rights reserved.</p></div>
+      </div>
+      <hr />
+    </footer>
+    <!-- THIS IS THE FOOTER OF THE WEB END -->
+
+    <!-- THIS IS THE MENU BAR FUNCTION START -->
+    <script>
+      var navLikns = document.getElementById("navLikns");
+
+      function showMenu() {
+        navLikns.style.right = "0";
+      }
+      function hideMenu() {
+        navLikns.style.right = "-200px";
+      }
+    </script>
+    <!-- THIS IS THE MENU BAR FUNCTION END -->
+  </body>
+</html>
