@@ -416,3 +416,421 @@ form {
   font-size: 20px;
 }
 /* THIS IS THE CONTACT PAGE END */
+body {
+  padding: 0px;
+  margin: 0px;
+}
+/* THIS IS THE HOME PAGE START */
+
+
+/*  THIS IS THE NAV-BAR OF THE WEB START */
+.container {
+  background-color: #74c69d;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -34px;
+}
+ul {
+  list-style: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  display: flex;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 30px;
+}
+h1 {
+  color: white;
+  font-family: Work Sans;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+#icons {
+  display: none;
+}
+/*  THIS IS THE NAV-BAR OF THE WEB END */
+
+/* THIS IS THE FIRST SECTION OF THE WEB START */
+.container-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #74c69d;
+  width: 100%;
+}
+.content-left {
+  display: flex;
+  flex-direction: column;
+}
+.content-left h3 {
+  color: white;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 5px;
+  text-align: left;
+}
+.content-left h2 {
+  font-family: Crimson Text;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+  margin: 0px;
+}
+.content-left p {
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+}
+.content-left button {
+  width: 170px;
+  height: 48px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+/* THIS IS THE FIRST SECTION OF THE WEB END */
+
+/* THIS IS THE SECOND SECTION OF THE WEB START */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+}
+.content h3 {
+  color: #74c69d;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+.content h2 {
+  font-family: Crimson Text;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0px;
+}
+.content p {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #000;
+}
+.content-img {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff;
+  gap: 30px;
+}
+.btn {
+  background-color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+.btn button {
+  background-color: black;
+  color: #fff;
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+/* THIS IS THE SECOND SECTION OF THE WEB END */
+
+/* THIS IS THE THIRD SECTION OF THE WEB START */
+.container-2 {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0px;
+}
+.content-2-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.content-2-right h2 {
+  font-family: Crimson Text;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0px;
+}
+.content-2-right p {
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000;
+}
+.content-2-right button {
+  width: 170px;
+  height: 48px;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointers;
+}
+/* THIS IS THE THIRD SECTION OF THE WEB END */
+
+/*  THIS IS THE FOURTH SECTION OF THE WEB START */
+.content-per {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: #fff;
+}
+.icon {
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
+}
+.container-3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #74c69d;
+  padding: 20px 0px;
+}
+p {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+/*  THIS IS THE FOURTH SECTION OF THE WEB END */
+
+/* THIS IS THE HOME PAGE END */
+
+/* THIS IS THE PORTFOLIO PAGE START */
+
+#container2 {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+#container2 h3 {
+  text-transform: uppercase;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: rgba(116, 198, 157, 1);
+}
+#container2 h2 {
+  font-family: Crimson Text;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  margin: 0px;
+}
+#container2 p {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+@media screen and (max-width: 400px) {
+  #container2 {
+    padding: 0px 30px;
+    box-sizing: border-box;
+    width: 311px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+#container3 {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+}
+.container3-img1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container3-img2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media screen and (max-width: 400px) {
+  #container3 {
+    padding: 30px 15px;
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .container3-img1 img {
+    width: 335px;
+    height: 196.62px;
+  }
+  .container3-img2 img {
+    width: 335px;
+    height: 196.62px;
+  }
+}
+/* THIS IS THE PORTFOLIO PAGE END */
+
+
+/* THIS IS THE SERVICES PAGE START  */
+.container-ser {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0px;
+}
+.basic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  box-shadow: 3px 4px 12px 1px #00000040;
+  height: 542px;
+  width: 339px;
+}
+.basic h3 {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+.basic h1 {
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+}
+.basic span {
+  color: #21252980;
+  font-size: 20px;
+}
+.basic p {
+  color: #21252980;
+  text-align: center;
+}
+.basic ul {
+  list-style: none;
+  display: block;
+}
+
+.basic ul li:before {
+  content: "✓";
+  color: green;
+  padding: 0px 20px;
+}
+.basic button {
+  width: 170px;
+  height: 48px;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointers;
+}
+/* THIS IS THE SERVICES PAGE END */
+
+
+/* THIS IS THE CONTACT PAGE START */
+.container-con {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: Hug (1, 180px);
+  height: Hug (385px);
+  padding: 30px 0px;
+}
+.right-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.right-form label input {
+  width: 100%;
+  background-color: #eeeeee;
+  height: 30px;
+}
+.right-form label textarea {
+  background-color: #eeeeee;
+  width: 400px;
+}
+#btn {
+  background-color: #000;
+  color: #fff;
+  height: 30px;
+  font-size: 20px;
+}
+/* THIS IS THE CONTACT PAGE END */
